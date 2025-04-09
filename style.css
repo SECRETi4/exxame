@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    padding: 9px 32px;
+    border-radius: 24px;
+}
+
+header {
+    background: #014E56;
+    padding-top: 83px;
+    padding-bottom: 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+.das {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.dfas {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 730px;
+}
+
+.hero {
+    padding: 250px 0;
+    background: #014E56;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.btn:hover {
+    background: #FFFFFF;
+    color: #002529;
+}
+
+.ffds {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero2 {
+    background: #004047;
+    padding: 200px 0;
+    margin: 0 auto;
+
+}
+
+.dawe {
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.dasf {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #79C8C7;
+}
+
+.ota {
+    padding-top: 113px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background: #012F34;
+    width: 350px;
+    height: 274.72576904296875px;
+    text-align: center;
+    padding: 44px 111px;
+}
+
+.btn2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #F67E7E;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.hero3 {
+    padding: 150px 0;
+    background: #012F34;
+}
+
+.dadd {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 113px;
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+
+.hero4 {
+    background: #F67E7E;
+    padding: 50px 0;
+}
+
+.dasfs {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+
+.btn3 {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #012F34;
+    border: 2px solid #012F34;
+    background-color: inherit;
+    padding: 9px 32px;
+    border-radius: 24px;
+}
+
+.btn3:hover {
+    background-color: #012F34;
+    color: white;
+}
+
+.hero4 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 0;
+}
+
+.menu {
+    font-size: 24px;
+    color: white;
+}
+
+footer {
+    padding: 48px 0;
+    background: #002529;
+}
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.dasw {
+    display: none;
+    color: #FFFFFF;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .dasw {
+        display: block;
+        background-color: inherit;
+        border: none;
+        font-size: 30px;
+    }
+
+    header .container {
+        justify-content: space-around;
+    }
+
+    nav {
+        display: none;
+    }
+    .hero .container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dfas{
+        width: 90%;
+    }
+    .ota2{
+        justify-content: center;
+    }
+}
